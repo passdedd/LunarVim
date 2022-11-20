@@ -56,9 +56,9 @@ return {
         { name = "DiagnosticSignInfo", text = lvim.icons.diagnostics.Info },
       },
     },
-    virtual_text = true,
+    virtual_text = false,
     update_in_insert = false,
-    underline = true,
+    underline = false,
     severity_sort = true,
     float = {
       focusable = false,
